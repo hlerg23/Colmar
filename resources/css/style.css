@@ -8,6 +8,12 @@ body {
 
 /*FONTS AND TYPE STYLES*/
 
+h1 {
+    padding: 32px;
+    text-align: center;
+    margin: 0px;
+}
+
 h2 {
     font-size: 24px;
 }
@@ -83,6 +89,11 @@ hero copy {
     padding-right: 80px;
 }
 
+hero copy h1 {
+    text-align: left;
+    padding: 0px;
+}
+
 button {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -139,11 +150,6 @@ card copy {
     background-color: lightgray;
 }
 
-.learning h1 {
-    padding: 32px;
-    text-align: center;
-}
-
 .courses {
     display: flex;
     flex-wrap: wrap;
@@ -174,3 +180,30 @@ card copy {
     padding: 8px;
 }
 
+/*THESIS*/
+
+.thesis-containers {
+    display: flex;
+}
+
+.container-left video {
+    width: 800px;
+}
+
+.thesis-containers card {
+    display: inline-flex;
+    background-color: white;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.thesis-containers card img {
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    padding: 16px;
+}
+
+#hover {
+    background-color: #868686;
+}
