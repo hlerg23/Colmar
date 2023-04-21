@@ -45,6 +45,7 @@ quote {
 header {
     height: 64px;
     align-items: center;
+    padding-top: 24px;
     background-color: #f5f5f5;
     padding-left: 24px;
     padding-right: 24px;
@@ -60,6 +61,11 @@ logo img {
     height: 40px;
 }
 
+logo p {
+    font-size: 18px;
+    color:black;
+}
+
 nav {
     float: right;
 }
@@ -72,7 +78,7 @@ nav a {
 /*HERO*/
 
 hero {
-    background-color: rgb(191, 191, 191);
+    background-color: rgb(220, 231, 241);
     display: flex;
     align-items: center;
 }
@@ -89,9 +95,13 @@ hero copy {
     padding-right: 80px;
 }
 
+hero p {
+    color: black;
+}
+
 hero copy h1 {
     text-align: left;
-    padding: 0px;
+    padding: 0px 0px 16px 0px;
 }
 
 button {
@@ -101,6 +111,7 @@ button {
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 16px;
 }
 
 /*FEATURED*/
@@ -114,6 +125,7 @@ featured {
     width: 60%;
     align-items: center;
     padding: 32px;
+    padding-right: 12px
 }
 
 .container-left img {
@@ -124,6 +136,7 @@ featured {
     width: 40%;
     align-items: center;
     padding: 32px;
+    padding-left: 12px;
 }
 
 featured card {
@@ -148,6 +161,7 @@ card copy {
 
 .learning {
     background-color: lightgray;
+    padding-bottom: 80px;
 }
 
 .courses {
@@ -205,5 +219,16 @@ card copy {
 }
 
 #hover {
-    background-color: #868686;
+    background-color: rgb(239, 239, 239);
+}
+
+.container-left video {
+    width: 100%;
+}
+
+/*FOOTER*/
+
+footer {
+    align-items: center;
+    
 }
