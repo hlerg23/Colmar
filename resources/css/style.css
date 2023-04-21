@@ -2,8 +2,43 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    width: 100%;
+}
+
+/*FONTS AND TYPE STYLES*/
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+    color: darkgray;
+}
+
+quote {
+    font-size: 11px;
+    color: darkgrey;
+}
+
+.CTA {
+    font-size: 11px;
+    color: navy
+}
+
+/*NAVIGATION*/
+
 header {
     height: 64px;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 logo {
@@ -18,18 +53,19 @@ logo img {
 
 nav {
     float: right;
-    vertical-align: middle;
 }
 
 nav a {
     font-size: small;
-    padding: 16px
+    padding: 16px;
 }
+
+/*HERO*/
 
 hero {
     background-color: rgb(191, 191, 191);
     display: flex;
-    height: auto;
+    align-items: center;
 }
 
 hero img {
@@ -42,7 +78,6 @@ hero img {
 
 hero copy {
     padding-right: 80px;
-    align-items: center;
 }
 
 button {
@@ -52,4 +87,44 @@ button {
     background-color: black;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*FEATURED*/
+
+featured {
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+.container-left{
+    width: 60%;
+    align-items: center;
+    padding: 32px;
+}
+
+.container-left img {
+    width:100%;
+}
+
+.container-right {
+    width: 40%;
+    align-items: center;
+    padding: 32px;
+}
+
+featured card {
+    display: inline-flex;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+card img {
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    padding: 16px;
+}
+
+card copy {
+    padding: 10px;
 }
